@@ -72,11 +72,6 @@ Response:
 - ✅ Agentic reasoning (3 agents)
 - ✅ Responsive UI
 
-## Credits 🙏
-
-- Built by BLACKBOXAI (AI software engineer)
-- Icons/Gradients: Free resources
-- Logic inspired by decision science models
 
 ## Future Enhancements
 
@@ -84,4 +79,5 @@ Response:
 - More agents (relationships, health)
 - User auth, save simulations
 
-**Enjoy simulating your life decisions! 🌟**
+# Dev by Jayaditya Malviya
+
