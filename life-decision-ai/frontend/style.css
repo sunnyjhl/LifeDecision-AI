@@ -1,0 +1,113 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  margin: 0;
+  padding: 20px;
+  color: white;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 0.5em;
+}
+
+.input-section {
+  margin: 40px 0;
+}
+
+#decisionInput {
+  padding: 15px;
+  font-size: 1.2em;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 15px 30px;
+  font-size: 1.2em;
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #ff5252;
+}
+
+.results {
+  margin-top: 40px;
+}
+
+.hidden {
+  display: none;
+}
+
+.comparison-cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 40px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+  min-width: 250px;
+  backdrop-filter: blur(10px);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.timeline {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 15px;
+  margin: 20px 0;
+}
+
+#timelineCanvas {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.agent-steps ul {
+  text-align: left;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.agent-steps li {
+  background: rgba(255,255,255,0.1);
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 10px;
+  list-style: none;
+}
+
+@media (max-width: 768px) {
+  #decisionInput {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .comparison-cards {
+    flex-direction: column;
+  }
+}
+
